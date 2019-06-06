@@ -77,6 +77,11 @@ rasa shell nlu
 - give something simple, get feedback early
 - when needed, use business logic (rules, state machines - old-school - use cases where something DOES need to be done)
 - customize OSS (rather than code self?)
+- keep stories short (10 lines!) - else need lot of RAM
+- use different bots for different domains (e.g. weather, restaurant booking, hotel booking)
+- a bot to switch between bots? - difficult to train? - a 'receptionist'
+- there are starter packs (a bot about rasa, a bot about healthcare)
+- typo handling - can build custom components (python has some) - stemming, Levenshtein distance... - typo correction model?
 
 ### how much data needed?
 - at least 15-20 examples for each intent
