@@ -71,3 +71,15 @@ rasa shell nlu
 
 - `rasa x` = a UI based tool
 
+## tips
+
+- allow real users to use and give feedback
+- give something simple, get feedback early
+- when needed, use business logic (rules, state machines - old-school - use cases where something DOES need to be done)
+- customize OSS (rather than code self?)
+
+### how much data needed?
+- at least 15-20 examples for each intent
+- basic bot: 2-3 actions: at least 10-20 conversations to learn from.
+- 50-100 conversations better; 50-100 NLU (Natural Language Understanding) examples
+- BUT start small (small number of examples)
